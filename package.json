@@ -1,0 +1,25 @@
+{
+  "name": "hardhat-fundme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "test:staging": "npx hardhat --network goerli",
+    "coverage": "npx hardhat coverage"
+  },
+  "keywords": [],
+  "author": "Jan Szczepan",
+  "license": "ISC",
+  "devDependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.10.2",
+    "hardhat-deploy": "^0.11.12"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
